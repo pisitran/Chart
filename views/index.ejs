@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+</head>
+<body>
+  <div>
+    <h3>ดูย้อนหลัง:</h3>
+    <input type="date" id="date_input"><button id="date" onclick="search_date()">ส่ง</button>
+      <button onclick="click_all()" >เเสดงทั้งหมด</button>
+      <h3>เลือกกราฟที่แสดง:</h3>
+        <ul>
+            <p><img onclick="chart_line()" src="/img/chart_line.jpg"  class="img-rounded"  width="250" height="150"></p>
+            <p><img onclick="chart_Area()" src="/img/chart_Area.png" class="img-rounded"  width="250" height="150"></p>
+            <p><img onclick="chart_stacked()" src="/img/chart_div.jpg" class="img-rounded"  width="250" height="150"></p>
+        </ul>
+<div class="container">
+    <div style="width:1150px; height:600px;" class="well">
+      <h4>แสดงกราฟ</h4>
+        <div id="chart_line" style="width:1150px; height:600px;"></div>
+        <div id="chart_Area" style="width:1150px; height:600px;"></div>
+        <div id="chart_stacked" style="width:1150px; height:600px;"></div>
+        <div id="chart_div" style="width:1150px; height:600px;"></div>
+        
+     </div>
+</div>
+
+
+</div>
+
+</body>
+</html>
